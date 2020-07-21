@@ -24,7 +24,7 @@ bot.on("ready", () => {
 });
 
 bot.on("message", message => {
-    if (message.channel.id === "Channel_ID") { //This will make the bot work only in that channel
+    if (message.channel.id === "735202992508239982", "735203211761418291") { //This will make the bot work only in that channel
         if (message.author.bot) return;
             var command = message.content
             .toLowerCase()
@@ -64,15 +64,15 @@ bot.on("message", message => {
                                     timestamp: "2019-04-04T14:16:26.398Z",
                                     footer: {
                                         icon_url:
-                                            "https://cdn.discordapp.com/avatars/530778425540083723/7a05e4dd16825d47b6cdfb02b92d26a5.png",
-                                        text: "Buy discord bots from Silvano#8106"
+                                            "",
+                                        text: "Buy discord bots from TeamTwig21#4420"
                                     },
                                     thumbnail: {
                                         url:
                                             "http://www.compartosanita.it/wp-content/uploads/2019/02/right.png"
                                     },
                                     author: {
-                                        name: "Account Generator",
+                                        name: "Abyss Generatpr",
                                         url: "https://discordapp.com",
                                         icon_url: bot.displayAvatarURL
                                     },
@@ -157,4 +157,4 @@ bot.on("message", message => {
     }
 });
 
-bot.login("Token");
+bot.login(process.env.token);
